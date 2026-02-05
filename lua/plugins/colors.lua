@@ -3,7 +3,7 @@ local function enable_transparency()
 end
 return{
     {
-	"folke/tokyonight.nvim",
+	-- "folke/tokyonight.nvim",
 	config = function()
 	    -- vim.cmd.colorscheme "tokyonight"
 	    enable_transparency()
